@@ -1,0 +1,7 @@
+.places {
+    padding-top: 92px;
+    padding-bottom: 92px;
+}
+:nth-child(5n) {
+    padding-bottom: 0;
+}
