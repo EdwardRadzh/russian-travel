@@ -21,6 +21,6 @@
 * Figma
 * Картинки
 
-* [Ссылка на макет в Figma](https://edwardradzh.github.io/russian-travel/)
+* [Ссылка на работу в GitHub Pages](https://edwardradzh.github.io/russian-travel/)
 
 
