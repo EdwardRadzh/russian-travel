@@ -19,6 +19,6 @@
 * Figma
 * Картинки
 
-* [Ссылка на работу в GitHub Pages](https://edwardradzh.github.io/russian-travel/)
+[Ссылка на работу в GitHub Pages](https://edwardradzh.github.io/russian-travel/)
 
 
