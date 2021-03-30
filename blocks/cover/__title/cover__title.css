@@ -9,7 +9,6 @@
     color: white;
     position: relative;
     z-index: 1;
-    white-space: pre-line;
 }
 
 @media (min-width : 1024px) and (max-width : 1279px) {
