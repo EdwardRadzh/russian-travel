@@ -13,7 +13,7 @@
     margin-right: 0;
 }
 
-@media (min-width : 320px) and (max-width : 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .footer__nav > ul {
         flex-direction: column;
     }
