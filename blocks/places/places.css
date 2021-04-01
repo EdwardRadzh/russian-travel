@@ -1,7 +1,32 @@
 .places {
     padding-top: 92px;
     padding-bottom: 92px;
+    margin-left: 148px;
+    margin-right: 148px;
 }
 :nth-child(5n) {
     padding-bottom: 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .places {
+        margin-left: 48px;
+        margin-right: 48px;
+        padding-bottom: 90px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .places {
+        margin-left: 24px;
+        margin-right: 24px;
+        padding-bottom: 90px;
+    }
+}
+
+@media (max-width: 767px) {
+    .places {
+        margin: 0;
+        padding-bottom: 66px;
+    }
 }

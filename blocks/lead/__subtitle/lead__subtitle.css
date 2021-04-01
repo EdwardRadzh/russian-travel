@@ -1,5 +1,5 @@
 .lead__subtitle {
-    max-width: 100%;
+    max-width: 640px;
      margin: 0 auto;
     color: white;
     text-align: center;
@@ -9,10 +9,9 @@
     padding-bottom: 64px;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
     .lead__subtitle {
         font-size: 16px;
-        font-weight: normal;
         line-height: 20px;
     }
 }

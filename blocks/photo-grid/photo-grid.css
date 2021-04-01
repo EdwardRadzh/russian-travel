@@ -1,5 +1,7 @@
 .photo-grid {
-    margin: 0 auto;
+    margin: 0;
+    margin-right: 48px;
+    margin-left: 48px;
     display: grid;
     grid-template-columns: repeat(4, 284px);
     gap: 16px;
@@ -9,6 +11,9 @@
     .photo-grid {
         grid-template-columns: repeat(3, 300px);
         width: fit-content;
+        margin: 0;
+        margin-right: 48px;
+        margin-left: 48px;
     }
 }
 
@@ -16,10 +21,12 @@
     .photo-grid {
         grid-template-columns: repeat(2, auto);
         width: fit-content;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
     .photo-grid {
         grid-template-columns: auto;
         margin-right: 16px;

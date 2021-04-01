@@ -1,5 +1,11 @@
 .places__paragraphs {
     margin: 0;
     padding: 0;
-    list-style-type: none;
+}
+
+@media (max-width: 767px) {
+    .places__paragraphs {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }

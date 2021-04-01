@@ -1,7 +1,16 @@
 .content-wrapper {
     max-width: 984px;
     margin: 0 auto;
+    margin-left: 148px;
+    margin-right: 148px;
 } 
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .content-wrapper {
+    margin-left: 48px;
+    margin-right: 48px; 
+  }
+}
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .content-wrapper {
@@ -10,7 +19,7 @@
     }
   }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
     .content-wrapper {
         margin-left: 16px;
         margin-right: 16px;
