@@ -15,15 +15,9 @@
     }
 }
 
- @media (min-width: 768px) and (max-width: 1023px) {
+ @media (max-width: 1023px) {
     .lead {
         margin: 0;
     }
-}  
-
-@media (max-width: 767px) {
-    .lead {
-        margin: 0;
-    }
-}  
+}
 

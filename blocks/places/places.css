@@ -4,7 +4,7 @@
     margin-left: 148px;
     margin-right: 148px;
 }
-:nth-child(5n) {
+.places:nth-child(5n) {
     padding-bottom: 0;
 }
 
@@ -28,5 +28,6 @@
     .places {
         margin: 0;
         padding-bottom: 66px;
+        padding-top: 64px;
     }
 }

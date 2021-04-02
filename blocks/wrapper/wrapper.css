@@ -16,3 +16,9 @@
         margin: 0;
     }
 }
+
+@media (min-width: 1280px) {
+    .wrapper {
+        margin: 0 auto;
+    }
+}
